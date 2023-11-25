@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Geometry.css">
+    <title>Draw Triangle and Line</title>
+</head>
+<body>
+    <label for="point1">Point 1 (x, y): </label>
+    <input type="text" id="point1" placeholder="Enter x, y for Point 1">
+    <br>
+
+    <label for="point2">Point 2 (x, y): </label>
+    <input type="text" id="point2" placeholder="Enter x, y for Point 2">
+    <br>
+
+    <label for="height">Height: </label>
+    <input type="text" id="height" placeholder="Enter height">
+    <br>
+
+    <button onclick="drawTriangle()">Draw Isosceles Triangle</button>
+
+    <br>
+    <br>
+
+    <label for="coefficients">Coefficients (ax + by + c = 0): </label>
+    <input type="text" id="coefficients" placeholder="Enter a, b, c">
+    <br>
+
+    <button onclick="drawLine()">Draw Line</button>
+
+    <br>
+    <br>
+
+    <button onclick="reflectTriangle()">Reflect Triangle</button>
+
+    <br>
+    <br>
+
+    <canvas id="canvas" width="500" height="500"></canvas>
+    
+    <script src="Geometry.js"></script>
+</body>
+</html>

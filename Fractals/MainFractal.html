@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Математичні фігури</title>
+    <link rel="stylesheet" type="text/css" href="MainFractal.css">
+</head>
+<body>
+
+<div class="gallery-container">
+    <div class="gallery-item">
+        <h2>Скіжинка Коха</h2>
+        <img src="сніжинка_коха.jpg" alt="Скіжинка Коха">
+        <br>
+        <button onclick="openPage('.\\Koch\\koch.html')">Спробувати</button>
+    </div>
+    
+    <div class="gallery-item">
+        <h2>tg(z)</h2>
+        <img src="tgz.jpg" alt="tg(z)">
+        <br>
+        <button onclick="openPage('.\\Tgz\\tgz.html')">Спробувати</button>
+    </div>
+</div>
+
+<script>
+    function openPage(page) {
+        window.location.href = page;
+    }
+</script>
+
+</body>
+</html>

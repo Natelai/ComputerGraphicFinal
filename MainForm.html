@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея</title>
+    <link rel="stylesheet" type="text/css" href="MainForm.css">
+</head>
+<body>
+
+<div class="gallery-container">
+    <div class="gallery-item">
+        <img src="фрактали.jpg" alt="Фрактали">
+        <br>
+        <button onclick="openPage('.\\Fractals\\MainFractal.html')">Фрактали</button>
+    </div>
+    
+    <div class="gallery-item">
+        <img src="картинка.jpg" alt="Колiрні моделі">
+        <br>
+        <button onclick="openPage('.\\ColorScheme\\ColorScheme.html')">Колірні моделі</button>
+    </div>
+
+    <div class="gallery-item">
+        <img src="афінні_перетворення.jpg" alt="Афінні перетворення">
+        <br>
+        <button onclick="openPage('.\\Geometry\\Geometry.html')">Афінні перетворення</button>
+    </div>
+</div>
+
+<script>
+    function openPage(page) {
+        window.location.href = page;
+    }
+</script>
+
+</body>
+</html>

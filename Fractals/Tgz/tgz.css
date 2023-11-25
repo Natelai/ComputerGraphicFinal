@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+body {
+    text-align: left;
+}
+
+.canvas-container {
+    border: 2px solid #000;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+}

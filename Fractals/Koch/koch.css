@@ -1,0 +1,11 @@
+.container {
+    text-align: center;
+}
+
+canvas {
+    border: 1px dashed black;
+}
+
+.canvas-container {
+    text-align: center;
+}

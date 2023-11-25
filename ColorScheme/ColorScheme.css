@@ -1,0 +1,9 @@
+.canvas-container {
+    display: flex;
+}
+canvas {
+    border: 1px solid black;
+}
+#colorInfo {
+    margin-top: 10px;
+}
